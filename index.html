@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-128x128.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-144x144.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-384x384.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon-512x512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#f6f6f6" />
+    <meta name="theme-color" content="#f6f6f6" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <script src="js/tones.js"></script>
+    <title>DTMF Pwa</title>
+</head>
+<body>
+    <div style="text-align: center;  position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);">
+        <h1 style="color: whitesmoke;">DTMF Pad</h1>
+
+    <div class="container">
+        <div onclick="play1();" class="item">1</div>
+        <div onclick="play2();" class="item">2</div>
+        <div onclick="play3();" class="item">3</div>  
+        <div onclick="playA();" class="item">A</div>
+        <div onclick="play4();" class="item">4</div>
+        <div onclick="play5();" class="item">5</div>  
+        <div onclick="play6();" class="item">6</div>
+        <div onclick="playB();" class="item">B</div>
+        <div onclick="play7();" class="item">7</div>
+        <div onclick="play8();" class="item">8</div> 
+        <div onclick="play9();" class="item">9</div> 
+        <div onclick="playC();" class="item">C</div> 
+        <div onclick="playPound();" class="item">#</div> 
+        <div onclick="play0();" class="item">0</div> 
+        <div onclick="playStar();" class="item">*</div>
+        <div onclick="playD();" class="item">D</div>
+        <div onclick="playDisconnectAll();" class="item">Hang up</div>
+        <div onclick="playStatus();" class="item">Status</div>
+      </div>
+    </div>
+</body>
+</html>
